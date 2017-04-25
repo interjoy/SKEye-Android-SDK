@@ -9,7 +9,7 @@
         android:screenOrientation="portrait"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.interjoy.skeyesdkdemo.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".EyeResultActivity" />
+            android:name="com.interjoy.skeyesdkdemo.EyeResultActivity" />
     </application>
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />

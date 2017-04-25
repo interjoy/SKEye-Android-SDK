@@ -66,22 +66,22 @@
                     <ImageView
                         android:id="@+id/image_openLocalGallery"
                         android:layout_width="127dp"
-                        android:layout_height="24dp"
+                        android:layout_height="30dp"
                         android:layout_alignParentLeft="true"
                         android:layout_centerVertical="true"
                         android:layout_marginLeft="20dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/image_xiangce" />
+                        android:src="@drawable/image_xiangce"
+                        android:scaleType="fitXY"/>
 
                     <ImageView
                         android:id="@+id/image_openCamera"
                         android:layout_width="127dp"
-                        android:layout_height="24dp"
+                        android:layout_height="30dp"
                         android:layout_alignParentRight="true"
                         android:layout_centerVertical="true"
                         android:layout_marginRight="20dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/image_xiangji" />
+                        android:src="@drawable/image_xiangji"
+                        android:scaleType="fitXY" />
 
                     <ProgressBar
                         android:id="@+id/progress_loading"

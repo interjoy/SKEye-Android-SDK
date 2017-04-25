@@ -41,19 +41,21 @@
         <ImageView
             android:id="@+id/image_object"
             android:layout_width="140dp"
-            android:layout_height="60dp"
+            android:layout_height="80dp"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
-            android:layout_marginLeft="40dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="10dp"
             android:src="@drawable/image_object" />
 
         <ImageView
             android:id="@+id/image_fruits"
             android:layout_width="140dp"
-            android:layout_height="60dp"
+            android:layout_height="80dp"
             android:layout_alignParentRight="true"
             android:layout_alignParentTop="true"
-            android:layout_marginRight="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="25dp"
             android:src="@drawable/image_fruit" />
     </RelativeLayout>
 
