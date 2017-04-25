@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="751" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/main_bg" />
+
+        <ImageView
+            android:id="@+id/image_skeye"
+            android:layout_width="73dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/icon_logo" />
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="66" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1103" >
+
+        <ImageView
+            android:id="@+id/image_object"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="40dp"
+            android:src="@drawable/image_object" />
+
+        <ImageView
+            android:id="@+id/image_fruits"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="40dp"
+            android:src="@drawable/image_fruit" />
+    </RelativeLayout>
+
+</LinearLayout>

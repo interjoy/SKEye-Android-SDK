@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SKEyeSDKDemo</string>
+    <string name="fruitsEye">水果识别</string>
+    <string name="objectEye">家庭常见物品识别</string>
+    <string name="nextPic">随机换一张</string>
+    <string name="localGallery">相册</string>
+    <string name="systemCamera">相机</string>
+    <string name="eye_res">识别结果</string>
+    <string name="name">名称</string>
+    <string name="confi">置信度</string>
+    <string name="res_json_title">RESPONSE JSON</string>
+</resources>
