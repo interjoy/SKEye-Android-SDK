@@ -12,7 +12,7 @@ v1.0.0
 - 将Demo程序导入Android Studio。
 - 打开"EyeResultActivity.java"类，配置好申请的Api Key和Api Secret。
 - 运行代码。
-- 更多使用介绍请参考 [《SKEye-Android-SDK说明文档V1.0.0》](https://github.com/interjoy/SKEye-Android-SDK.git)。
+- 更多使用介绍请参考 [《SKEye-Android-SDK说明文档V1.0.0》](https://github.com/interjoy/SKEye-Android-SDK/blob/master/SKEye-Android-SDK%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3V1.0.0.pdf)。
 ###  调用示例
 ```
 (1)识别一个Bitmap图像
