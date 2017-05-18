@@ -1,6 +1,13 @@
 # SKEye-Android-SDK
 SKEye-Android-SDK for Object Recognition Service 
 ###  更新日志
+v1.0.1
+- 增加图像偏色处理接口（调整图像偏色：偏红、偏绿、偏蓝）
+  
+  //如需使用该接口，请在SDK初始化后调用一次即可。如果图像不需要偏色处理，则不需要调用该接口。
+ public void SKEyeSDKColorCast(float rRateValue, float gRateValue, float bRateValue)；
+
+
 v1.0.0
 - 发布常见物体识别、水果识别功能
 ###  目录介绍

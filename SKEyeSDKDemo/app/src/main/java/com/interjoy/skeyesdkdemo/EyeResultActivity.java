@@ -23,7 +23,6 @@ import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
-
 import com.google.gson.Gson;
 import com.interjoy.model.Tag;
 import com.interjoy.model.Tags;
@@ -34,7 +33,6 @@ import com.interjoy.skutils.CustomToast;
 import com.interjoy.skutils.JsonFormat;
 import com.interjoy.skutils.LogByInterjoyUtils;
 import com.interjoy.skutils.SdcardUtils;
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
@@ -51,10 +49,8 @@ import java.util.Random;
  */
 public class EyeResultActivity extends Activity {
     //请将您申请的APP KEY和APP SECRET正确填写
-//	private String api_key = "";//APP KEY
-//	private String api_secret = "";//APP SECRET
-    private String api_key = "51832dbe37310893213a2c490ce63a0e";
-    private String api_secret = "4e24d05860ef64ce5840606388099ef4";
+	private String api_key = "";//APP KEY
+	private String api_secret = "";//APP SECRET
     private ImageView image_pic, image_cancel, image_openLocalGallery,
             image_openCamera;// 展示图片，返回上个界面、打开本地相册、打开系统相机按钮控件
     private TextView tv_nextPic, tv_res, tv_name, tv_confi, tv_json_title,
@@ -139,6 +135,8 @@ public class EyeResultActivity extends Activity {
         // SDK初始化
         skEyeSDK = new SKEyeSDK(getApplicationContext());
         skEyeSDK.SKEyeSDKInit(api_key, api_secret);
+        //如果图片不需要进行偏色处理，则可不调用该接口
+//        skEyeSDK.SKEyeSDKColorCast(1, (float)0.9, 1);
         objectsRes = new int[]{R.drawable.object1, R.drawable.object2,
                 R.drawable.object3, R.drawable.object4, R.drawable.object5};
         fruitsRes = new int[]{R.drawable.fruit1, R.drawable.fruit2,
