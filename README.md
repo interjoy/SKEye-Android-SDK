@@ -1,6 +1,10 @@
 # SKEye-Android-SDK
 SKEye-Android-SDK for Object Recognition Service 
 ###  更新日志
+v1.0.2
+- 优化网络请求模块
+
+
 v1.0.1
 - 增加图像偏色处理接口（调整图像偏色：偏红、偏绿、偏蓝）
   

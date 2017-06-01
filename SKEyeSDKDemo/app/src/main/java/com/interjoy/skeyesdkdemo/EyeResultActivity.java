@@ -545,12 +545,12 @@ public class EyeResultActivity extends Activity {
                 try {
                     // 直接调用
                     String respose = skEyeSDK.SKEyeSDK_Image(
-                            ConstConfig.SKEyeSDK_SERVICE_NAME_OBJECT,
+                            service_name,
                             image_url);
                     updateUI(respose);
                     // 接口回调
                     /*skEyeSDK.SKEyeSDK_Image(
-                            ConstConfig.SKEyeSDK_SERVICE_NAME_OBJECT,
+                            service_name,
                             image_url, new ImageCallback() {
 
                                 @Override
