@@ -19,7 +19,7 @@ v1.0.0
 ###  目录介绍
 - libs:包含识别接口的jar文件。
 - SKEyeSDKDemo:物体识别的demo工程。
-- 说明文档(SKEye-Android-SDK说明文档V1.0.2.pdf)
+- 说明文档[《SKEye-Android-SDK说明文档V1.0.2》](https://github.com/interjoy/SKEye-Android-SDK/blob/master/SKEye-Android-SDK%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3V1.0.2.pdf)
 ###  使用步骤
 - 下载SDK文件包。
 - 将Demo程序导入Android Studio。
